@@ -8,10 +8,15 @@
   --font: "Raleway", serif;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   color: var(--color-text);
   line-height: 1.6;
   font-family: var(--font);
+  overflow-x: hidden;
 }
 
 a {
@@ -37,6 +42,7 @@ a.active {
   font-size: 13px;
   font-weight: 500;
   transition: all 0.3s ease 0s;
+  border: none;
 }
 
 .button:hover {
